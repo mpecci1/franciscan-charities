@@ -214,7 +214,7 @@ h1 em, h2 em, h3 em { font-style: italic; font-weight: 500; color: var(--gold-de
 
 .hero-art { display: flex; justify-content: center; }
 .hero-photo {
-  width: min(100%, 440px); aspect-ratio: 4 / 5; object-fit: cover;
+  width: min(100%, 480px); aspect-ratio: 1 / 1; object-fit: cover;
   border-radius: var(--radius-lg);
   box-shadow: 0 28px 54px rgba(0,0,0,0.42);
   border: 1px solid rgba(245,239,227,0.12);
