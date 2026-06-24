@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="bg" cx="80%" cy="-5%" r="105%">
+      <stop offset="0%" stop-color="#1C3E6E"/>
+      <stop offset="56%" stop-color="#15325C"/>
+    </radialGradient>
+    <radialGradient id="broth" cx="50%" cy="38%" r="70%">
+      <stop offset="0%" stop-color="#E7B45A"/>
+      <stop offset="100%" stop-color="#C8902B"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- faint Tau watermark -->
+  <g fill="#FBF8F1" opacity="0.05" transform="translate(110 150) scale(3.4)">
+    <path d="M10 42 Q60 58 110 42 Q113 50 108 68 Q104 74 92 76 Q76 78 73 84 Q74 104 80 122 Q82 128 76 128 Q56 130 40 131 Q34 131 36 124 Q42 104 43 84 Q40 78 28 76 Q16 74 12 68 Q7 50 10 42 Z"/>
+  </g>
+
+  <!-- eyebrow with Tau -->
+  <g>
+    <g transform="translate(78 100) scale(0.18)"><path fill="#E4B65C" d="M10 42 Q60 58 110 42 Q113 50 108 68 Q104 74 92 76 Q76 78 73 84 Q74 104 80 122 Q82 128 76 128 Q56 130 40 131 Q34 131 36 124 Q42 104 43 84 Q40 78 28 76 Q16 74 12 68 Q7 50 10 42 Z"/></g>
+    <text x="116" y="125" fill="#E4B65C" font-family="Arial, sans-serif" font-size="22" letter-spacing="4" font-weight="700">SINCE 2004 · NEWARK, NJ</text>
+  </g>
+
+  <!-- headline -->
+  <text x="80" y="245" fill="#FBF8F1" font-family="Georgia, serif" font-size="78" font-weight="700">The dignity of</text>
+  <text x="80" y="330" fill="#E4B65C" font-family="Georgia, serif" font-size="78" font-style="italic" font-weight="700">a hot meal.</text>
+
+  <text x="80" y="408" fill="#EFE7D5" font-family="Arial, sans-serif" font-size="30" opacity="0.9">Feeding &amp; clothing Newark's Central Ward —</text>
+  <text x="80" y="450" fill="#EFE7D5" font-family="Arial, sans-serif" font-size="30" opacity="0.9">over 1 million meals served, no questions asked.</text>
+
+  <text x="80" y="552" fill="#FBF8F1" font-family="Georgia, serif" font-size="40" font-weight="700">Franciscan Charities</text>
+
+  <!-- bowl illustration, right -->
+  <g transform="translate(910,300) scale(1.25)">
+    <g fill="none" stroke="#EFE7D5" stroke-width="4" stroke-linecap="round" opacity="0.8">
+      <path d="M-40 -82 q-14 -22 0 -44 q14 -22 0 -40"/>
+      <path d="M0 -90 q-14 -24 0 -48 q14 -22 0 -42"/>
+      <path d="M40 -82 q-14 -22 0 -44 q14 -22 0 -40"/>
+    </g>
+    <ellipse cx="0" cy="0" rx="118" ry="30" fill="#0E2342"/>
+    <path d="M-116 -2 q116 70 232 0 q-12 84 -116 84 q-104 0 -116 -84 Z" fill="#15325C" stroke="#EFE7D5" stroke-width="3"/>
+    <ellipse cx="0" cy="-2" rx="110" ry="27" fill="url(#broth)" stroke="#EFE7D5" stroke-width="3"/>
+    <circle cx="-32" cy="-6" r="7" fill="#15325C" opacity="0.55"/>
+    <circle cx="18" cy="2" r="6" fill="#5A4632" opacity="0.6"/>
+    <circle cx="-4" cy="-12" r="5" fill="#7A6147" opacity="0.6"/>
+  </g>
+</svg>

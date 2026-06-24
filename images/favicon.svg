@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="w" x1="0.12" y1="0" x2="0.62" y2="1">
+      <stop offset="0" stop-color="#D9BA7C"/>
+      <stop offset="0.4" stop-color="#B98C4A"/>
+      <stop offset="1" stop-color="#86602F"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#15325C"/>
+  <!-- Authentic carved Franciscan Tau cross, olive wood -->
+  <path transform="translate(6.8 -4.3) scale(0.42)" fill="url(#w)" stroke="#6B4A24" stroke-width="4" stroke-linejoin="round"
+        d="M10 42 Q60 58 110 42 Q113 50 108 68 Q104 74 92 76 Q76 78 73 84 Q74 104 80 122 Q82 128 76 128 Q56 130 40 131 Q34 131 36 124 Q42 104 43 84 Q40 78 28 76 Q16 74 12 68 Q7 50 10 42 Z"/>
+</svg>
